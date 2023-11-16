@@ -1,0 +1,52 @@
+{
+  "name": "@murongg/test-release-scripts",
+  "type": "module",
+  "version": "0.0.3",
+  "packageManager": "pnpm@8.6.0",
+  "description": "",
+  "author": "MuRong <hi@mrong.me>",
+  "license": "MIT",
+  "funding": "https://github.com/sponsors/murongg",
+  "homepage": "https://github.com/murongg/@murongg/test-release-scripts#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murongg/@murongg/test-release-scripts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/murongg/@murongg/test-release-scripts/issues"
+  },
+  "keywords": [],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*",
+        "./dist/index.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "scripts build",
+    "release": "scripts release",
+    "help": "scripts --help",
+    "publish": "scripts publish"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.16",
+    "typescript": "^5.0.4",
+    "@hyperoracle/release-scripts": "file:/Users/murong/Documents/hyperoracle/release-scripts/"
+  }
+}
