@@ -500,6 +500,10 @@ packages:
       type-detect: 4.0.8
     dev: true
 
+  /@murongg/utils@0.1.20:
+    resolution: {integrity: sha512-lRQgr9/4gqXgUkGkVUyCBxt9fPxGGdgelSESjDL7eKpXygGtsb0EZoCgGG5fUQ7Z/Qqd7Wbgc+E+E4CPOCrIYg==}
+    dev: true
+
   /@nodelib/fs.scandir@2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
     engines: {node: '>= 8'}
@@ -1727,10 +1731,11 @@ packages:
   file:../../Documents/hyperoracle/release-scripts(typescript@5.0.4):
     resolution: {directory: ../../Documents/hyperoracle/release-scripts, type: directory}
     id: file:../../Documents/hyperoracle/release-scripts
-    name: '@hyperoracle/release-scripts'
+    name: '@ora-io/release-scripts'
     hasBin: true
     requiresBuild: true
     dependencies:
+      '@murongg/utils': 0.1.20
       bumpp: 9.3.0
       cac: 6.7.14
       fs-extra: 11.2.0
