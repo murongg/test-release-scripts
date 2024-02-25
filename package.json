@@ -39,10 +39,10 @@
     "dist"
   ],
   "scripts": {
-    "build": "scripts build",
-    "release": "scripts release",
-    "help": "scripts --help",
-    "publish": "scripts publish"
+    "build": "cle-scripts build",
+    "release": "cle-scripts release",
+    "help": "cle-scripts --help",
+    "publish": "cle-scripts publish"
   },
   "devDependencies": {
     "@types/node": "^18.16.16",
