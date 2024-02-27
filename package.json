@@ -1,7 +1,7 @@
 {
   "name": "@murongg/test-release-scripts",
   "type": "module",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "packageManager": "pnpm@8.6.0",
   "description": "",
   "author": "MuRong <hi@mrong.me>",
@@ -42,7 +42,7 @@
     "build": "cle-scripts build",
     "release": "cle-scripts release",
     "prepublishOnly": "cle-scripts build",
-    "publish": "cle-scripts publish",
+    "publish": "npm run prepublishOnly && cle-scripts publish",
     "help": "cle-scripts --help"
   },
   "devDependencies": {
